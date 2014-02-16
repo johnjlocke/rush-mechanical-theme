@@ -620,1632 +620,894 @@ a.frst-grn-btn:focus, a.frst-grn-btn:hover {
 /* Media
 ----------------------------------------------- */
 
-
-
 .page-content img.wp-smiley,
-
 .entry-content img.wp-smiley,
-
 .comment-content img.wp-smiley {
-
   border: none;
-
   margin-bottom: 0;
-
   margin-top: 0;
-
   padding: 0;
-
 }
 
 .wp-caption {
-
   border: 1px solid #ccc;
-
   margin-bottom: 1.5em;
-
   max-width: 100%;
-
 }
 
 .wp-caption img[class*="wp-image-"] {
-
   display: block;
-
   margin: 1.2% auto 0;
-
   max-width: 98%;
-
 }
 
 .wp-caption-text {
-
   text-align: center;
-
 }
 
 .wp-caption .wp-caption-text {
-
   margin: 0.8075em 0;
-
 }
 
 .site-main .gallery {
-
   margin-bottom: 1.5em;
-
 }
 
 .gallery-caption {
-
 }
 
 .site-main .gallery a img {
-
   border: none;
-
   height: auto;
-
   max-width: 90%;
-
 }
 
 .site-main .gallery dd {
-
   margin: 0;
-
 }
 
 .site-main .gallery-columns-4 .gallery-item {
-
 }
 
 .site-main .gallery-columns-4 .gallery-item img {
-
 }
-
-
 
 /* Make sure embeds and iframes fit their containers */
 
 embed, iframe, object {
-
 	max-width: 100%;
-
 }
 
-
-
-
-
 /*  Navigation
-
 ----------------------------------------------- */
 
-
-
 .site-main [class*="navigation"] {
-
   margin: 0 0 1.5em;
-
   overflow: hidden;
-
 }
 
 [class*="navigation"] .nav-previous {
-
   float: left;
-
   width: 50%;
-
 }
 
 [class*="navigation"] .nav-next {
-
   float: right;
-
   text-align: right;
-
   width: 50%;
-
 }
 
-
-
-
-
 /*  Comments
-
 ----------------------------------------------- */
 
-
-
 .comment-content a {
-
   word-wrap: break-word;
-
 }
 
 .bypostauthor {
-
 }
-
-
-
 
 
 /* ==============================================
-
       6 Sidebar
-
    ============================================== */
 
-
-
 .secondary {
-
   float: left;
-
   width: 31.2%;
-
 }
 
 .widget {
-
   margin: 0 0 1.5em;
-
 }
-
-
 
 /* Make sure select elements fit in widgets */
 
 .widget select {
-
   max-width: 100%;
-
 }
-
-
 
 /* Search widget */
 
 input[type="search"].search-field {
-
   -webkit-border-radius: 9px;
-
   -moz-border-radius: 9px;
-
   border-radius: 9px;
-
    -webkit-box-shadow: 0 0 5px rgba(34,70,104,.69);
-
   -moz-box-shadow: 0 0 5px rgba(34,70,104,.69);
-
   box-shadow: 0 0 5px rgba(34,70,104,.69);
-
   font-size: 1.3125em;
-
   font-style: italic;
-
   line-height: 1.4875em;
-
   min-width: 260px;
-
   outline: 0;
-
   padding: .125em .125em .125em .25em;
-
   -webkit-transition: all .2s ease-in-out;
-
   -moz-transition: all .2s ease-in-out;
-
   -o-transition: all .2s ease-in-out;
-
   transition: all .2s ease-in-out;
-
   width: 61.8%;
-
 }
 
 input[type="search"].search-field:focus {
-
   background-color: #fafafd;
-
   -webkit-box-shadow: 0 0 5px rgba(34,70,104,.99);
-
   -moz-box-shadow: 0 0 5px rgba(34,70,104,.99);
-
   box-shadow: 0 0 5px rgba(34,70,104,.99);
-
 }
 
 .widget_search .search-submit {
-
   /* display: none; */
-
 }
 
-
-
-/* Contact Form
-
+/* Contact Form 7
 ----------------------------------------------------- */
 
 #wpcf7-f50-w1-o1 {
-
   font-size: 14px;
-
 }
 
 #wpcf7-f79-p77-o1 {
-
   font-size: 14px;
-
 }
-
 .secondary .wpcf7-form, .site-main .wpcf7-form {
-
   background-color: #90bde7;
-
   -webkit-border-radius: 9px;
-
   -moz-border-radius: 9px;
-
   border-radius: 9px;
-
   -webkit-box-shadow: 2px 3px rgba(34,70,104,.69);
-
   -moz-box-shadow: 2px 3px rgba(34,70,104,.69);
-
   box-shadow: 2px 3px rgba(34,70,104,.69);
-
   padding: 0 0 70px 0;
-
 }
 
 .secondary .wpcf7-form {
-
   max-width: 480px;
-
 }
 
 .service-form-headline, .entry-content .service-form-headline {
-
   background-color: #224668;
-
   -webkit-border-radius: 9px 9px 0 0;
-
   -moz-border-radius: 9px 9px 0 0;
-
   border-radius: 9px 9px 0 0;
-
   color: #e1eaed;
-
   font-family: Lato, 'Open Sans', Helvetica, Arial, sans-serif;
-
   font-size: 36px;
-
   text-align: center;
-
 }
 
 .secondary .wpcf7-form label, .site-main .wpcf7-form label {
-
-  color: #e1eaed; /* color: #1eaded; */
-
+  color: #e1eaed; 
   padding: 0 0 0 10%;
-
 }
 
 .secondary .wpcf7-form .visible-label, .site-main .wpcf7-form .visible-label {
-
   color: #224668;
-
 }
 
 .site-content .wpcf7-form input[type="text"], .site-content .wpcf7-form input[type="email"], .site-content .wpcf7-form input[type="tel"], 
-
 .site-content .wpcf7-form textarea, .site-content .wpcf7-form select {
-
   -webkit-border-radius: 9px;
-
   -moz-border-radius: 9px;
-
   border-radius: 9px;
-
   font-size: 1.3125em;
-
   font-style: italic;  
-
   line-height: 1.4875em;
-
   margin: 0 10%;
-
   max-width: 80%;
-
   padding: .125em .125em .125em .25em;
-
 }
 
 .site-content .wpcf7-form select {
-
   background: #e1eaed url(/wp-content/themes/rush-mechanical/rush-mechanical/images/select-arrow.png) no-repeat 95% center;
-
   border: none;
-
   -webkit-appearance: textfield;
-
   width: 80%;
-
 }
 
 .site-main .wpcf7-checkbox {
-
   margin: 0 10%;
-
 }
 
 .site-main .wpcf7-checkbox span.wpcf7-list-item {
-
   color: rgba(34,70,104,.69);
-
   display: block;
-
   margin-left: 10%;
-
   padding: .14285em .5em
-
 }
 
-
-
 .secondary input[placeholder], .secondary .wpcf7-form select, .site-content input[placeholder], .site-content .wpcf7-form select {
-
   color: rgba(34,70,104,.69);
-
 }
 
 .secondary input::-webkit-input-placeholder, .secondary textarea::-webkit-input-placeholder, .site-content input::-webkit-input-placeholder, .site-content textarea::-webkit-input-placeholder {
-
 	color: rgba(34,70,104,.69);
-
 }
 
 .secondary input::-moz-placeholder, .secondary textarea::-moz-placeholder, .site-content input::-moz-placeholder, .site-content textarea::-moz-placeholder {
-
 	color: rgba(34,70,104,.69);
-
 }
 
 .secondary input:-moz-placeholder, .secondary textarea:-moz-placeholder, .site-content input:-moz-placeholder, .site-content textarea:-moz-placeholder {  
-
 	color: rgba(34,70,104,.69);
-
 }
 
 .secondary input:-ms-input-placeholder, .secondary textarea:-ms-input-placeholder, .site-content input:-ms-input-placeholder, .site-content textarea:-ms-input-placeholder { 
-
 	color: rgba(34,70,104,.69);
-
 }
 
 .secondary .wpcf7-submit, .site-content .wpcf7-submit, .widget_search .search-submit, .error404 .search-submit {
-
   background: #32689b;
-
   background-color: #32689b;
-
   border: none;
-
   color: #e1eaed;
-
   float: right;
-
   font-weight: 700;
-
   letter-spacing: .05em;
-
   -webkit-transition: all .2s ease-in-out;
-
   -moz-transition: all .2s ease-in-out;
-
   -o-transition: all .2s ease-in-out;
-
   transition: all .2s ease-in-out;
-
   -webkit-appearance: none;
-
 }
 
 .secondary .wpcf7-submit, .site-content .wpcf7-submit {
-
   font-size: 2em;
-
   margin: 0 8% 0 0;
-
   padding: .25em 1.75em;
-
 }
 
 .widget_search .search-submit, .error404 .search-submit {
-
   -webkit-border-radius: 9px;
-
   -moz-border-radius: 9px;
-
   border-radius: 9px;
-
   float: none;
-
   font-size: 1.34em;
-
   margin: margin: 0 5% 0 0;
-
   padding: .25em 1.345em;
-
 }
 
 .secondary .wpcf7-submit:focus, .secondary .wpcf7-submit:hover, .site-content .wpcf7-submit:focus, .site-content .wpcf7-submit:hover,
-
 .widget_search .search-submit:focus, .widget_search .search-submit:hover, .error404 .search-submit:focus, .error404 .search-submit:hover {
-
   background-color: #224668;
-
 }
 
 .req {
-
   color: #ff0000;
-
 }
 
-
-
 span.wpcf7-not-valid-tip {
-
   margin: 0 10%;
-
 }
 
 .wpcf7 div.wpcf7-validation-errors, .wpcf7 div.wpcf7-mail-sent-ok {
-
   background: #e5e190;
-
   background-color: rgba(229,225,144,.99)
-
   border: solid 2px #e0d72f;
-
   -webkit-border-radius: 9px;
-
   -moz-border-radius: 9px;
-
   border-radius: 9px;
-
   font-size: 1.4em;
-
   margin: 7% 10%;
-
   width: 80%;
-
 }
 
 .wpcf7 div.wpcf7-validation-errors {
-
 }
 
 .wpcf7 div.wpcf7-mail-sent-ok {
-
   background: #90e590;
-
   background-color: rgba(144,229,144,.999);
-
 }
 
-
-
 /* =========================================================
-
       7 Footer
-
    ========================================================= */
 
-
-
 .footer {
-
   background: #224668;
-
   background-color: #224668;
-
   color: #e1eaed;
-
   margin: 0 0 -32px 0;
-
   min-height: 700px;
-
 }
 
 .footer-inner-wrap {
-
   margin: 0 auto;
-
   max-width: 1600px;
-
 }
 
 .footer-span3 {
-
   float: left;
-
   width: 33.3%;
-
 }
 
 .footer-primary {
-
 }
 
 .footer-secondary {
-
 }
 
 .footer-tertiary {
-
 }
 
 .footer-chunk {
-
 }
 
 .footer-headline {
-
   font-family: Arvo, Rockwell, serif;
-
   font-size: 1.6875em; /* 27px */
-
   font-weight: 700;
-
   line-height: 1.4074em; /* 38px */
-
 }
 
 .footer ul {
-
   margin: 0 0 1.5em 0;
-
   -webkit-padding-start: 0;
-
 }
 
 .footer-chunk p, .footer li, .footer .vcard {
-
   font-size: 1.3125em; /* 21px */
-
   line-height: 1.428571428571429em; /* 30px */
-
 }
 
 footer .vcard a, #menu-footer-links a {
-
   color: #e1eaed;
-
 }
 
 #menu-footer-links a:focus, #menu-footer-links a:hover {
-
   color: #90bde7;
-
 }
 
 .footer-chunk p {
-
   width: 61.8%;
-
 }
 
 #menu-footer-links, .footer-social {
-
   list-style-type: none;
-
 }
 
 .footer .footer-social {
-
   margin: 0 0 3em 0;
-
 }
 
 .footer-social li {
-
   height: 50px;
-
   margin: .7em 0;
-
 }
 
 .footer-social a {
-
   line-height: 1.875em;
-
   padding-left: 70px;
-
 }
 
 .yelp {
-
-  background: transparent url(/wp-content/uploads/2014/01/yelp.png) left center no-repeat;
-
+  background: transparent url(/path-to-file/yelp.png) left center no-repeat;
 }
 
 .googleplus {
-
-  background: transparent url(/wp-content/uploads/2014/01/googleplus.png) left center no-repeat;
-
+  background: transparent url(/path-to-file/googleplus.png) left center no-repeat;
 }
 
 .footer-badges {
-
 }
 
 .accepted-payment {
-
 }
 
 .accepted-payment li {
-
 }
 
 .site-info {
-
   clear: both;
-
   display: block;
-
 }
 
 .copyright {
-
   text-align: center;
-
 }
 
 .design-by {
-
   color: #4b9be7;
-
   font-size: .875em;
-
   padding: .5em;
-
   text-align: right;
-
 }
 
-
-
 /* =========================================================
-
       8 Page Specific
-
    ========================================================= */
 
-
-
 /* Home
-
 ------------------------------------------------------------ */
 
 .hero-div {
-
   position: relative;
-
 }
 
 .hero-div-overlay {
-
   height: auto;
-
   left: 0;
-
   position: absolute;
-
   top: 0;
-
   width: 100%;
-
 }
 
 .home .hero-div-overlay h2, .home .hero-div-overlay p {
-
   color: #e1eaed;
-
 }
 
 .home .hero-div-overlay h2 {
-
   font-family: Arvo, Rockwell, serif;
-
   font-size: 3em;
-
   letter-spacing: .05em;
-
   margin: 6.25% 0 0 58%;
-
   text-shadow: 2px 2px #5c2b1f;
-
   width: 33%;
-
 }
 
 .home .hero-div-overlay p {
-
   font-size: 1.875em;
-
   font-style: italic;
-
   font-weight: 900;
-
   letter-spacing: .05em;
-
   margin: 2% 0 0 58%;
-
   text-shadow: 1px 1px #5c2b1f;
-
 }
 
 .full-page-span33 {
-
   float: left;
-
   max-width: 493px;
-
   padding: 0 20px;
-
   width: 30.83%;
-
 }
 
 .isle1, .isle2, .isle3 {
-
   background-size: cover;
-
   border-radius: 9px;
-
   height: 290px;
-
 }
 
 .isle1 h3, .isle2 h3, .isle3 h3 {
-
   background: rgb(34,70,104);
-
   background: rgba(34,70,104,.95);
-
   -webkit-border-radius: 9px 9px 0 0;
-
   -moz-border-radius: 9px 9px 0 0;
-
   border-radius: 9px 9px 0 0;
-
   color: #e1eaed;
-
   font-family: Arvo, Rockwell, serif;
-
   font-size: 27px;
-
   text-align: center;
-
 }
 
 .isle1 {
-
-  background: transparent url(/wp-content/uploads/2014/01/sacramento-heating-and-air2.jpg) no-repeat center center;
-
+  background: transparent url(/path-to-file/feature-image1.jpg) no-repeat center center;
 }
-
 .isle2 {
-
-  background: transparent url(/wp-content/uploads/2014/01/sacramento-air-conditioning-service.jpg) no-repeat center center;
-
+  background: transparent url(/path-to-file/feature-image2.jpg) no-repeat center center;
 }
-
 .isle3 {
-
-  background: transparent url(/wp-content/uploads/2014/01/sacramento-commercial-heating.jpg) no-repeat center center;
-
+  background: transparent url(/path-to-file/feature-image3.jpg) no-repeat center center;
 }
 
 .isle1 p, .isle2 p, .isle3 p {
-
   font-style: italic;
-
   font-size: 1.6875em;
-
   max-width: 180px;
-
 }
 
 .isle1 p {
-
   color: #224668;
-
   text-shadow: 1px 1px #e1eaed;
-
 }
 
 .isle2 p, .isle3 p {
-
   color: #e1eaed;
-
   text-shadow: 1px 1px #224668;
-
 }
 
 .tl {
-
   left: 10%;
-
   position: relative;
-
   top: 5%;
-
 }
-
 .bl {
-
   left: 50%;
-
   position: relative;
-
   top: 33%;
-
 }
-
 .tr {
-
   left: 50%;
-
   position: relative;
-
   top: 5%;
-
 }
-
 .br {
-
   left: 10%;
-
   position: relative;
-
   top: 33%;
-
 }
-
 .tighten-text {
-
   line-height: 1em;
-
 }
-
 .home .full-page-span33 .frst-grn-btn, .home .full-page-span33 .lt-grn-btn {
-
   margin: 0 0 1.345em 0;
-
-  /* padding: 15px 15px 15px 12.5%; */
-
-   padding: .5em .5em .5em 12.5%;
-
+  padding: .5em .5em .5em 12.5%;
 }
-
 .home-facts {
-
 }
-
 .hf2nd-col {
-
 }
-
-
 
 /* 404
-
 ----------------------------------------------------------- */
 
-
-
 .error404 #content {
-
-  background: transparent url(/wp-content/uploads/2014/01/pagenotfound1.png) no-repeat center center;
-
+  background: transparent url(/path-to-file/pagenotfound1.png) no-repeat center center;
   background-size: cover;
-
   min-height: 768px;
-
 }
-
 .error404 .site-content a {
-
   color: #224668;
-
 }
-
- 
 
 /* =========================================================
-
       9 Misc
-
    ========================================================= */
 
-
-
 /*  Infinite Scroll
-
 ----------------------------------------------- */
-
-
 
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
 
 .infinite-scroll .paging-navigation, /* Older / Newer Posts Navigation (always hidden) */
-
 .infinite-scroll.neverending .site-footer { /* Theme Footer (when set to scrolling) */
-
-	display: none;
-
+  display: none;
 }
-
-
 
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
 
 .infinity-end.neverending .site-footer {
-
-	display: block;
-
+  display: block;
 }
-
-
 
 /* =========================================================
-
       10 Media Queries
-
    ========================================================= */
 
-
-
 @media screen and (min-width: 1280px) {
-
   .site-branding {
-
     padding: 0 2.875em;
-
   }
-
   .header-span3 {
-
     width: 33.3%;
-
   }
-
   .site-title {
-
     font-size: 3.5em;
-
     line-height: 1.3em;
-
   }
-
   .header-secondary {
-
     margin-top: 24px;
-
     margin-left: 4%;
-
     width: 29.3%;
-
   }
-
 }
-
 @media screen and (min-width: 769px) {
-
   .site-title, .site-description {
-
     padding-left: 20px;
-
   }
-
   .main-navigation {
-
   } 
-
   .main-navigation a {
-
-     font-size: 1.875em;
-
+    font-size: 1.875em;
   }
-
   .site-main {
-
     padding: .75em 20px 0;
-
   }
-
   .secondary {
-
     padding: 0 0 0 30px;
-
   }
-
   .home-island {
-
     min-height: 650px;
-
   }
-
   .isle1, .isle2, .isle3 {
-
     background-size: cover;
-
     height: 290px;
-
     margin-bottom: 2.69em;
-
     max-width: 493px;
-
     width: 100%;
-
   }
-
   .home-facts {
-
     min-height: 335px;
-
   }
-
   .hf2nd-col {
-
     margin-top: 4.125em;
-
   }
-
 }
-
 @media screen and (min-width: 769px) and (max-width: 1599px) {
-
   .main-navigation ul {
-
     margin-right: 3%;
-
   } 
-
 }
-
 @media screen and (min-width: 769px) and (max-width:1000px) {
-
   .home .secondary {
-
     display: inline-block;
-
     float: none;
-
     margin: 0 18%;
-
     max-width: 480px;
-
     width: 480px;
-
   }
-
   .home .full-page-span33.last-col {
-
     width: 61.8%;
-
   }
-
 }
-
 @media screen and (min-width: 769px) and (max-width:1280px) {
-
   .home .secondary, .secondary {
-
     padding: 0 0 0 20px; 
-
   }
-
 }
-
 @media screen and (min-width: 1100px) {
-
   .secondary {
-
   }
-
   .home-island {
-
     margin-bottom: 2.69em;
-
     min-height: 650px;
-
   }
-
   .home-facts {
-
     min-height: 335px;
-
   }
-
   .hf2nd-col {
-
     margin-top: 4.125em;
-
   }
-
 }
-
 @media screen and (min-width: 1600px) {
-
    .secondary {
-
      float: right;
-
    }
-
-   .home-facts {
-
+  .home-facts {
     min-width: 493px;
-
     width: 493px;
-
   }
-
   .hf2nd-col {
-
     margin-top: 4.125em;
-
   }
-
 }
-
 @media screen and (max-width: 1500px) {
-
   .site-header .lt-grn-btn, .site-header .lt-blue-btn {
-
     font-size: 2em;
-
   }
-
   .home .full-page-span33 {
-
     width: 30%;
-
   }
-
 }
-
 @media screen and (max-width: 1400px) {
-
   .header-tertiary {
-
     font-size: 80%;
-
   }
-
   .home .hero-div-overlay h2 {
-
     font-size: 2.625em;
-
   }
-
   .home .full-page-span33 {
-
     width: 29.8%;
-
   }
-
   .home .full-page-span33 .frst-grn-btn, .home .full-page-span33 .lt-grn-btn {
-
     margin: 0 0 1.345em 20px;
-
   }
-
 }
-
 @media screen and (max-width: 1280px) {
-
   .main-navigation a {
-
      font-size: 1.75em;
-
   }
-
   .home .full-page-span33 {
-
     width: 46%;
-
   }
-
 }
-
 @media screen and (max-width: 1200px) {
-
   .footer-span3 {
-
     padding: 0 2.5%;
-
     width: 45%;
-
   }
-
 }
-
 @media screen and (max-width: 1150px) {
-
   .main-navigation li {
-
     padding: 0 1.5%;
-
   }
-
   .main-navigation li:nth-of-type(1) {
-
     padding: 0 1.5% 0 0;
-
   }
-
   .home .hero-div-overlay h2 {
-
     font-size: 2.25em;
-
   }
-
   .home .hero-div-overlay p {
-
     font-size: 1.75em;
-
   }
-
 }
-
 @media screen and (max-width: 1080px) {
-
   .main-navigation a {
-
     font-size: 1.625em;
-
   }
-
   .site-main, .secondary {
-
     width: 90%;
-
     margin: 0 5%;
-
   }
-
   .home .secondary {
-
   }
-
 }
-
 @media screen and (max-width: 1000px) {
-
   .lrg-phone {
-
     font-size: 2.25em;
-
   }
-
   .emergency {
-
     font-size: 1.125em;
-
   }
-
   .header-tertiary {
-
     font-size: 62%;
-
   }
-
   .main-navigation li {
-
     padding: 0 1%;
-
   }
-
-   .main-navigation li:nth-of-type(1) {
-
-    padding: 0 1% 0 0;
-
-  }
-
-  .home .full-page-span33 {
-
-    width: 44.4%;
-
-  }
-
-}
-
-@media screen and (max-width: 900px) {
-
-  .main-navigation a {
-
-    font-size: 1.5em;
-
-  }
-
-}
-
-@media screen and (max-width: 850px) {
-
-  .main-navigation a {
-
-    font-size: 1.375em;
-
-  }
-
-}
-
-@media screen and (max-width: 800px) {
-
-  .main-navigation a {
-
-    font-size: 1.25em;
-
-  }
-
-}
-
-@media screen and (max-width: 768px) {
-
-  .menu-toggle, .main-navigation.toggled .nav-menu {
-
-    display: block;
-
-  }
-
-  .menu-toggle {
-
-    background: #32689b;
-
-    border: 1px solid #224668;
-
-    border-bottom: 2px solid #224668;
-
-    -webkit-border-radius: 6px;
-
-    -moz-border-radius: 6px;
-
-    border-radius: 6px;
-
-    padding: 11px 8px 6px;
-
-    position: absolute;
-
-    right: 30px;
-
-    top: 38px;
-
-  }
-
-  .main-navigation {
-
-    border-top: 1px solid #224668;
-
-    padding: 0;
-
-  }
-
-  #site-navigation {
-
-    display: none;
-
-  }
-
-  .main-navigation ul {
-
-    margin-right: 0;
-
-  }
-
-  .main-navigation li {
-
-    border-top: 1px solid #90bde7;
-
-    border-bottom: 1px solid #224668;
-
-    display: block;
-
-    float: none;
-
-    padding: 0;
-
-    text-align: left;
-
-  }
-
   .main-navigation li:nth-of-type(1) {
-
-    padding: 0;
-
+    padding: 0 1% 0 0;
   }
-
-  .main-navigation li a {
-
-    font-size: 1.625em;
-
+  .home .full-page-span33 {
+    width: 44.4%;
   }
-
-  .site-title, .site-description {
-
-    padding-left: 10px;
-
-  }
-
-  .site-description {
-
-    font-size: 1.2em;
-
-  }
-
-  .disappear {
-
-    display: none;
-
-  }
-
-  .header-span3 {
-
-    width: 50%;
-
-  }
-
-  .header-secondary.header-span3 {
-
-    width: 43%;
-
-  }
-
-  .header-secondary {
-
-    font-size: 66%;
-
-    margin: 81px .5% 0 5%;
-
-  }
-
-  .footer-span3 {
-
-    padding: 0 5%;
-
-    width: 90%;
-
-  }
-
-  .site-main, .secondary {
-
-    margin: 0 5%;
-
-    width: 90%;
-
-  }
-
-  .home .hero-div-overlay h2 {
-
-    font-size: 1.75em;
-
-  } 
-
-  .home .hero-div-overlay p {
-
-    font-size: 1.25em;
-
-  }
-
-  .home .home-island, .home .home-facts {
-
-    width: 90%;
-
-  }
-
-  .home-facts ul {
-
-    margin: 0 0 1.5em 0;
-
-  }
-
 }
-
-@media screen and (max-width: 600px) {
-
-  .site-main, .secondary {
-
-    margin: 0 5%;
-
-    width: 90%;
-
+@media screen and (max-width: 900px) {
+  .main-navigation a {
+    font-size: 1.5em;
   }
-
-  .home .hero-div-overlay h2 {
-
-    font-size: 1.25em;
-
-  } 
-
-  .home .hero-div-overlay p {
-
-    font-size: 1em;
-
-  }
-
-  .home .home-island, .home .home-facts {
-
-    width: 90%;
-
-  }
-
-  .home-facts ul {
-
-    margin: 0 0 1.5em 0;
-
-  }
-
 }
-
-@media screen and (max-width: 480px) {
-
+@media screen and (max-width: 850px) {
+  .main-navigation a {
+    font-size: 1.375em;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main-navigation a {
+    font-size: 1.25em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu-toggle, .main-navigation.toggled .nav-menu {
+    display: block;
+  }
   .menu-toggle {
-
-    right: 20px;
-
-    top: 28px;
-
+    background: #32689b;
+    border: 1px solid #224668;
+    border-bottom: 2px solid #224668;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    padding: 11px 8px 6px;
+    position: absolute;
+    right: 30px;
+    top: 38px;
   }
-
+  .main-navigation {
+    border-top: 1px solid #224668;
+    padding: 0;
+  }
+  #site-navigation {
+    display: none;
+  }
+  .main-navigation ul {
+    margin-right: 0;
+  }
+  .main-navigation li {
+    border-top: 1px solid #90bde7;
+    border-bottom: 1px solid #224668;
+    display: block;
+    float: none;
+    padding: 0;
+    text-align: left;
+  }
+  .main-navigation li:nth-of-type(1) {
+    padding: 0;
+  }
+  .main-navigation li a {
+    font-size: 1.625em;
+  }
+  .site-title, .site-description {
+    padding-left: 10px;
+  }
+  .site-description {
+    font-size: 1.2em;
+  }
+  .disappear {
+    display: none;
+  }
+  .header-span3 {
+    width: 50%;
+  }
   .header-secondary.header-span3 {
-
-    width: 33%;
-
+    width: 43%;
   }
-
   .header-secondary {
-
-    float: right;
-
-    font-size: 50%;
-
-    margin-top: 91px;
-
+    font-size: 66%;
+    margin: 81px .5% 0 5%;
   }
-
-  input[type="search"].search-field {
-
-    min-width: 170px;
-
-    max-width: 56%;
-
+  .footer-span3 {
+    padding: 0 5%;
+    width: 90%;
   }
-
+  .site-main, .secondary {
+    margin: 0 5%;
+    width: 90%;
+  }
   .home .hero-div-overlay h2 {
-
-    font-size: 1.125em;
-
+    font-size: 1.75em;
+  } 
+  .home .hero-div-overlay p {
+    font-size: 1.25em;
   }
-
+  .home .home-island, .home .home-facts {
+    width: 90%;
+  }
+  .home-facts ul {
+    margin: 0 0 1.5em 0;
+  }
 }
-
-@media screen and (max-width: 400px) {
-
-  .home .hero-div-overlay h2 {
-
-    font-size: 1em;
-
+@media screen and (max-width: 600px) {
+  .site-main, .secondary {
+    margin: 0 5%;
+    width: 90%;
   }
-
+  .home .hero-div-overlay h2 {
+    font-size: 1.25em;
+  } 
+  .home .hero-div-overlay p {
+    font-size: 1em;
+  }
+  .home .home-island, .home .home-facts {
+    width: 90%;
+  }
+  .home-facts ul {
+    margin: 0 0 1.5em 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .menu-toggle {
+    right: 20px;
+    top: 28px;
+  }
+  .header-secondary.header-span3 {
+    width: 33%;
+  }
+  .header-secondary {
+    float: right;
+    font-size: 50%;
+    margin-top: 91px;
+  }
+  input[type="search"].search-field {
+    min-width: 170px;
+    max-width: 56%;
+  }
+  .home .hero-div-overlay h2 {
+    font-size: 1.125em;
+  }
+}
+@media screen and (max-width: 400px) {
+  .home .hero-div-overlay h2 {
+    font-size: 1em;
+  }
 }
