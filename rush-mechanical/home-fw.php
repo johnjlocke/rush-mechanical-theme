@@ -1,65 +1,76 @@
-<div class="clear left">
-
-  <div class="full-page-span33 home-island">
-    <div class="img-island isle1">
-      <h3>Equipment</h3>
-      <p class="tl">Authorized Dealer of Top Brands</p>
-    </div>
-    <div>
-      <p>Rush Mechanical strives to be the best central HVAC installation and repair company in the Sacramento area and gladly provides free estimates for all of our HVAC installation, service, maintenance and repair services. Call us today and speak to a qualified HVAC technician.</p>
-    </div>
-  </div>
-
-  <div class="full-page-span33 home-island">
-    <div class="img-island isle2">
-      <h3>Residential</h3>
-      <p class="bl">Quality Service For Your Home</p>
-    </div>
-    <div>
-      <p>Our HVAC contractors are certified technicians capable of working on all types of HVAC systems including central HVAC offering installation, maintenance and repairs. When you are looking for an HVAC installation company or an HVAC repair company, we offer the most comprehensive evaluations and services from Fairfield to Roseville and the greater Sacramento area.</p>
-    </div>
-  </div>
-
-  <div class="full-page-span33 home-island">
-    <div class="img-island isle3">
-      <h3>Commercial</h3>
-      <p class="tr">Expertise in Commercial HVAC Systems</p>
-    </div>
-    <div>
-      <p>We have extensive knowledge of both residential and commercial heating and cooling systems. We say &#8220;we work hard because your comfort matters&#8221; and we mean it. We&#8217;re a family owned business and we know that when you have heating or cooling issues, it effects your whole family.</p>
-    </div>
-  </div>
-
-</div>
-
-<div class="clear left">
-
-  <div class="full-page-span33 home-facts">
-    <h3 class="med-body-headline">Our Services Include:</h3>
-    <ul>
-      <li>Full Service HVAC Technicians</li>
-      <li>Central Air Conditioning Repairs</li>
-      <li>Gas or Electric Furnaces</li>
-      <li>Heat Pumps</li>
-      <li>Gas and Electric Boilers</li>
-      <li>Radiator Heating Systems</li>
-    <ul>
-  </div>
-
-  <div class="full-page-span33 home-facts hf2nd-col">
-    <ul>
-      <li>Commercial Heating &#38; Cooling</li>
-      <li>Residential Heating &#38; Cooling</li>
-      <li>HVAC Maintenance</li>
-      <li>Licensed, Bonded &#38; Insured</li>
-      <li>24 Hour Emergency Services</li>
-      <li>Free Estimates</li>
-    <ul>
-  </div>
-
-  <div class="full-page-span33 home-facts hf2nd-col last-col">
-    <a href="#" class="frst-grn-btn tighten-text"><span class="subtext">Ask About Our</span><br />Seasonal Specials</a>
-    <a href="#" class="lt-grn-btn tighten-text">Financing Available<br /><span class="subtext">Upon Request</span></a>
-  </div>
-
+<div class="clear left">
+
+  <div class="full-page-span33 home-island">
+    <div class="img-island isle1">
+      <h3>Isle Title 1</h3>
+      <p class="tl"> Mei duis denique nostrum et, in pro choro</p>
+    </div>
+
+    <div>
+      <p>Lorem ipsum Mei duis denique nostrum et, in pro choro consul, eam deterruisset definitionem te. Ne nam prima essent delicata, quie Sacto is. In fabellas technician.</p>
+    </div>
+
+  </div>
+
+  <div class="full-page-span33 home-island">
+    <div class="img-island isle2">
+      <h3>Isle Title 2</h3>
+      <p class="bl">Ne Nam Prima Essent Delicata</p>
+    </div>
+
+    <div>
+      <p>Ot usu ut oblique senserit, ne usu saepe affert definitiones, mel euripidis persequeris id. Pri ad iudico conceptam, nostro apeirian no has Roseville.</p>
+    </div>
+
+  </div>
+
+  <div class="full-page-span33 home-island">
+    <div class="img-island isle3">
+      <h3>Isle Title 3</h3>
+      <p class="tr">Ut Oratio Moleskine Quo Prezi</p>
+    </div>
+
+    <div>
+      <p> Ipsum cotidieque definitiones eos no, at dicant perfecto sea. At mollis definitionem duo, ludus primis sanctus id eam, an mei rebum debitis.</p>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="clear left">
+
+  <div class="full-page-span33 home-facts">
+  
+    <h3 class="med-body-headline">Our Services Include:</h3>
+
+    <ul>
+      <li>Fulli Assueverit</li>
+      <li>Centrant Ailey Redactio Athasn</li>
+      <li>Electric Oblique Senserit</li>
+      <li>Nec Ro Aperiam</li>
+      <li>At Mollis Definitionem Duo</li>
+      <li>Radirum A Denique Adversarium namei</li>
+    <ul>
+
+  </div>
+  
+  <div class="full-page-span33 home-facts hf2nd-col">
+
+    <ul>
+      <li>Tel Hasadipsci &#38; Ludis</li>
+      <li>Respado Cotidieque &#38; Primus</li>
+      <li>PAVT Monestatis</li>
+      <li>Listaray, Billum &#38; Inlused</li>
+      <li>24 Hour Elequist Sanktus</li>
+      <li>Fresca Estinastos</li>
+    <ul>
+
+  </div>
+
+  <div class="full-page-span33 home-facts hf2nd-col last-col">
+    <a href="#" class="frst-grn-btn tighten-text"><span class="subtext">Nov Ask Selen</span><br /> Falli Eloquentiam</a>
+    <a href="#" class="lt-grn-btn tighten-text">Eleifend Asservated<br /><span class="subtext">Utom Requiem</span></a>
+  </div>
+
 </div>
