@@ -1,4 +1,3 @@
-
 	<div class="secondary widget-area" role="complementary">
 		<?php do_action( 'before_sidebar' ); ?>
 		<?php if ( ! dynamic_sidebar( 'sidebar2' )) : ?>
