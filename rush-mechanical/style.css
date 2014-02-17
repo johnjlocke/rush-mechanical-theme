@@ -1248,7 +1248,7 @@ footer .vcard a, #menu-footer-links a {
     margin-right: 3%;
   } 
 }
-@media screen and (min-width: 769px) and (max-width:1000px) {
+@media screen and (min-width: 769px) and (max-width: 1000px) {
   .home .secondary {
     display: inline-block;
     float: none;
@@ -1260,7 +1260,7 @@ footer .vcard a, #menu-footer-links a {
     width: 61.8%;
   }
 }
-@media screen and (min-width: 769px) and (max-width:1280px) {
+@media screen and (min-width: 769px) and (max-width: 1280px) {
   .home .secondary, .secondary {
     padding: 0 0 0 20px; 
   }
