@@ -1,21 +1,20 @@
 /*
 Theme Name: Rush Mechanical
-Theme URI: https://www.github.com/johnjlocke/rush-mechanical-theme
+Theme URI: https://github.com/johnjlocke/rush-mechanical-theme
 Author: John Locke
 Author URI: http://www.lockedowndesign.com
 Description: A professional, modern theme created for Rush Mechanical of Sacramento, CA
-Version: 1.0
+Version: 1.0.2
 License: GNU General Public License
 Tags: HVAC, grids, typography, blue, cool, photo, balanced
 This theme is licensed under the GPL.
 Rush Mechanical is built on top of the blank theme, Underscores http://underscores.me/, (C) 2012-2013 Automattic, Inc.
 */
-
 /* ==========================================================
        TABLE OF CONTENTS
-
+        
        1 Reset
-       2 Color Palatte
+       2 Color Palette
        3 Global
        4 Header
        5 Content
@@ -76,7 +75,6 @@ sub, sup {
   position: relative;
   vertical-align: baseline;
 }
-
 sup { top: -0.5em; }
 sub { bottom: -0.25em; }
 img { border: 0; }
@@ -87,7 +85,6 @@ fieldset {
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
-
 legend {
   border: 0; 
   padding: 0; 
@@ -107,12 +104,11 @@ button, html input[type="button"],  input[type="reset"], input[type="submit"] { 
 button[disabled], html input[disabled] { cursor: default; }
 input[type="checkbox"], input[type="radio"] { box-sizing: border-box;  margin: 0 .625em 0 0; padding: 0; }
 input[type="search"] {
-  -webkit-appearance: textfield; 
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box; 
-  box-sizing: content-box;
+    -webkit-appearance: textfield; 
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; 
+    box-sizing: content-box;
 }
-
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
 button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
 textarea { overflow: auto; vertical-align: top; }
@@ -121,7 +117,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* ===========================================================
        2 Color Palatte
    =========================================================== 
-
+       
        Very Lt Gray      e1eaed
        Headline Dk Gray  323436
        Body Text Gray    3e4042
@@ -133,7 +129,7 @@ table { border-collapse: collapse; border-spacing: 0; }
        Seafoam Green     90e7ca (aaecd7 lighter variation)
        Forest Green      446858
        Brick Red         5c2b1f
-
+       
   ============================================================ */
 
 /* ===========================================================
@@ -236,7 +232,7 @@ input[type="reset"] {
 
 button:hover,
 input[type="button"]:hover,
-input[type="reset"]:hover {
+input[type="reset"]:hover,{
   border-color: #ccc #bbb #aaa #bbb;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
 }
@@ -284,31 +280,26 @@ a:hover, a:focus, a:active, .error404 .site-content a:focus, .error404 .site-con
 
 /* ALIGN
 ----------------------------------- */
-
 .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em;
 }
-
 .alignright {
   display: inline;
   float: right;
   margin-left: 1.5em;
 }
-
 .aligncenter {
   clear: both;
   display: block;
   margin: 0 auto;
 }
-
 .left { float: left; }
 .right { float: right; }
 
 /* SCRREN READER SPECIFIC
 ----------------------------------------------------- */
-
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important;
@@ -335,7 +326,6 @@ a:hover, a:focus, a:active, .error404 .site-content a:focus, .error404 .site-con
 
 /* CLEAR
 --------------------------------------------------- */
-
 .clear:before, .clear:after, .entry-content:before, .entry-content:after, .comment-content:before, .comment-content:after, .site-header:before,
 .site-header:after, .site-content:before, .site-content:after, .site-footer:before, .site-footer:after {
   content: '';
@@ -355,70 +345,55 @@ a:hover, a:focus, a:active, .error404 .site-content a:focus, .error404 .site-con
   background-color: #32689b;
  /* padding: 0 1em; */
 }
-
 .site-branding {
   color: #e1eaed;
 }
-
 .header-inner-wrap {
   margin: 0 auto;
   max-width: 1600px;
 }
-
 .header-span3 {
   float: left;
   width: 33.3%;
 }
-
 .header-main-info {
 }
-
 .header-secondary {
   margin-top: 24px;
 }
-
 .header-tertiary {
   margin-top: 27px;
 }
-
 .site-title, h1.site-title, .site-title a {
   color: #e1eaed;
   font-family: Arvo, Rockwell, serif;
 }
-
 .site-description {
   color: #e1eaed;
 }
-
 .callus {
   font-size: 2.5em;
 }
-
 .lrg-phone {
   font-family: Arvo, Rockwell, 'Chunk Five', Chunk, serif;
   font-size: 3em;
   font-weight: 700;
 }
-
 .lrg-phone a {
   color: #e1eaed;
   letter-spacing: .05em;
 }
-
 .emergency {
   font-size: 1.5em;
 }
-
 .bbb-header {
   height: auto;
   margin-left: 2em;
   width: 45px;
 }
-
 .lt-grn-btn, .frst-grn-btn, .lt-blue-btn {
   display: block;
 }
-
 .site-header .lt-grn-btn, .site-header .lt-blue-btn {
   display: block;
   float: right;
@@ -427,50 +402,40 @@ a:hover, a:focus, a:active, .error404 .site-content a:focus, .error404 .site-con
   text-align: center;
   width: 60%;
 }
-
 .lt-grn-btn, .lt-blue-btn {
   font-size: 2.5em;
 }
-
 .lt-blue-btn, a.lt-blue-btn {
   background-color: #aac2f4;
   color: #4a6983;
 }
-
 .lt-grn-btn, a.lt-grn-btn {
   background-color: #aaecd7;
   color: #446858;
 }
-
 .frst-grn-btn, a.frst-grn-btn {
   background-color: #446858;
   color: #e1eaed; 
   font-size: 2.5em;
 }
-
 a.lt-blue-btn:focus, a.lt-blue-btn:hover {
   background-color: #90bde7;
   color: #224668;
 }
-
 a.lt-grn-btn:focus, a.lt-grn-btn:hover {
   background-color: #90e7ca;
   color: #224668;
 }
-
 a.frst-grn-btn:focus, a.frst-grn-btn:hover {
   background-color: #2a6d65;
   color: #90e7ca;
 }
-
 .subtext {
   font-size: 70%;
 }
-
 .site-header .subtext {
   font-size: 60%;
 }
-
 .main-navigation {
   background-color: #6b8cac;
   clear: both;
@@ -479,19 +444,16 @@ a.frst-grn-btn:focus, a.frst-grn-btn:hover {
   padding: 0 0 0 2.875em;
   width: 100%;
 }
-
 .main-navigation ul {
   list-style: none;
   margin: 0;
   padding-left: 0;
 }
-
 .main-navigation li {
   float: left;
   padding: 0 2%;
   position: relative;
 }
-
 .main-navigation a {
   color: #e1eaed;
   display: block;
@@ -499,11 +461,9 @@ a.frst-grn-btn:focus, a.frst-grn-btn:hover {
   padding: .5em .3em;
   text-decoration: none;
 }
-
 .main-navigation a:focus, .main-navigation a:hover {
   background-color: #32689b;
 }
-
 .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   display: none;
@@ -513,47 +473,38 @@ a.frst-grn-btn:focus, a.frst-grn-btn:hover {
   top: 1.5em;
   z-index: 99999;
 }
-
 .main-navigation ul ul ul {
   left: 100%;
   top: 0;
 }
-
 .main-navigation ul ul a {
   width: 200px;
 }
-
 .main-navigation ul ul li {
 }
-
 .main-navigation li:hover > a {
 }
-
 .main-navigation ul ul :hover > a {
 }
-
 .main-navigation ul ul a:hover {
 }
-
 .main-navigation ul li:hover > ul {
   display: block;
 }
-
 .main-navigation .current_page_item a,
 .main-navigation .current-menu-item a {
   background-color: #32689b;
 }
 
 /* Small menu */
-
 .menu-toggle {
   cursor: pointer;
   display: none;
 }
-
 .main-navigation li:nth-of-type(1) {
   padding: 0 2% 0 0;
 }
+
 
 /* ==================================================
       5 Content
@@ -563,51 +514,41 @@ a.frst-grn-btn:focus, a.frst-grn-btn:hover {
   margin: 0 auto;
   max-width: 1600px;
 }
-
 .site-main {
   float: left;
   width: 61.8%;
 }
-
 .site-main p, .full-page-span33 p, .full-page-span33 li {
   font-size: 1.4em;
   line-height: 1.428571428571429em;
 }
-
-.sticky {
-}
-
 .hentry {
   margin: 0 0 1.5em;
 }
-
 .byline, .updated {
   display: none;
 }
-
 .single .byline, .group-blog .byline {
   display: inline;
 }
-
 .page-content, .entry-content, .entry-summary {
   margin: 1.5em 0 0;
+  position: relative;
 }
-
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
 }
-
 .lrg-body-headline, .entry-content h2, .entry-content h1 {
   color: #323436;
   font-family: Arvo, Rockwell, serif;
   font-size: 2.25em; /* 36px */
 }
-
 .med-body-headline, .entry-content h3 {
   color: #323436;
   font-family: Arvo, Rockwell, serif;
 }
+
 
 /*  Asides
 ----------------------------------------------- */
@@ -616,6 +557,7 @@ a.frst-grn-btn:focus, a.frst-grn-btn:hover {
 .archive .format-aside .entry-title {
   display: none;
 }
+
 
 /* Media
 ----------------------------------------------- */
@@ -628,55 +570,41 @@ a.frst-grn-btn:focus, a.frst-grn-btn:hover {
   margin-top: 0;
   padding: 0;
 }
-
 .wp-caption {
   border: 1px solid #ccc;
   margin-bottom: 1.5em;
   max-width: 100%;
 }
-
 .wp-caption img[class*="wp-image-"] {
   display: block;
   margin: 1.2% auto 0;
   max-width: 98%;
 }
-
 .wp-caption-text {
   text-align: center;
 }
-
 .wp-caption .wp-caption-text {
   margin: 0.8075em 0;
 }
-
 .site-main .gallery {
   margin-bottom: 1.5em;
 }
-
-.gallery-caption {
-}
-
 .site-main .gallery a img {
   border: none;
   height: auto;
   max-width: 90%;
 }
-
 .site-main .gallery dd {
   margin: 0;
 }
-
-.site-main .gallery-columns-4 .gallery-item {
-}
-
-.site-main .gallery-columns-4 .gallery-item img {
+.site-main .gallery-columns-4 .gallery-item, .site-main .gallery-columns-4 .gallery-item img {
 }
 
 /* Make sure embeds and iframes fit their containers */
-
 embed, iframe, object {
 	max-width: 100%;
 }
+
 
 /*  Navigation
 ----------------------------------------------- */
@@ -685,26 +613,22 @@ embed, iframe, object {
   margin: 0 0 1.5em;
   overflow: hidden;
 }
-
 [class*="navigation"] .nav-previous {
   float: left;
   width: 50%;
 }
-
 [class*="navigation"] .nav-next {
   float: right;
   text-align: right;
   width: 50%;
 }
 
+
 /*  Comments
 ----------------------------------------------- */
 
 .comment-content a {
   word-wrap: break-word;
-}
-
-.bypostauthor {
 }
 
 
@@ -716,19 +640,16 @@ embed, iframe, object {
   float: left;
   width: 31.2%;
 }
-
 .widget {
   margin: 0 0 1.5em;
 }
 
 /* Make sure select elements fit in widgets */
-
 .widget select {
   max-width: 100%;
 }
 
 /* Search widget */
-
 input[type="search"].search-field {
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
@@ -748,25 +669,21 @@ input[type="search"].search-field {
   transition: all .2s ease-in-out;
   width: 61.8%;
 }
-
 input[type="search"].search-field:focus {
   background-color: #fafafd;
   -webkit-box-shadow: 0 0 5px rgba(34,70,104,.99);
   -moz-box-shadow: 0 0 5px rgba(34,70,104,.99);
   box-shadow: 0 0 5px rgba(34,70,104,.99);
 }
-
 .widget_search .search-submit {
   /* display: none; */
 }
 
-/* Contact Form 7
+/* Contact Form
 ----------------------------------------------------- */
-
 #wpcf7-f50-w1-o1 {
   font-size: 14px;
 }
-
 #wpcf7-f79-p77-o1 {
   font-size: 14px;
 }
@@ -780,11 +697,9 @@ input[type="search"].search-field:focus {
   box-shadow: 2px 3px rgba(34,70,104,.69);
   padding: 0 0 70px 0;
 }
-
 .secondary .wpcf7-form {
   max-width: 480px;
 }
-
 .service-form-headline, .entry-content .service-form-headline {
   background-color: #224668;
   -webkit-border-radius: 9px 9px 0 0;
@@ -795,16 +710,13 @@ input[type="search"].search-field:focus {
   font-size: 36px;
   text-align: center;
 }
-
 .secondary .wpcf7-form label, .site-main .wpcf7-form label {
-  color: #e1eaed; 
+  color: #e1eaed; /* color: #1eaded; */
   padding: 0 0 0 10%;
 }
-
 .secondary .wpcf7-form .visible-label, .site-main .wpcf7-form .visible-label {
   color: #224668;
 }
-
 .site-content .wpcf7-form input[type="text"], .site-content .wpcf7-form input[type="email"], .site-content .wpcf7-form input[type="tel"], 
 .site-content .wpcf7-form textarea, .site-content .wpcf7-form select {
   -webkit-border-radius: 9px;
@@ -817,18 +729,15 @@ input[type="search"].search-field:focus {
   max-width: 80%;
   padding: .125em .125em .125em .25em;
 }
-
 .site-content .wpcf7-form select {
   background: #e1eaed url(/wp-content/themes/rush-mechanical/rush-mechanical/images/select-arrow.png) no-repeat 95% center;
   border: none;
   -webkit-appearance: textfield;
   width: 80%;
 }
-
 .site-main .wpcf7-checkbox {
   margin: 0 10%;
 }
-
 .site-main .wpcf7-checkbox span.wpcf7-list-item {
   color: rgba(34,70,104,.69);
   display: block;
@@ -839,23 +748,18 @@ input[type="search"].search-field:focus {
 .secondary input[placeholder], .secondary .wpcf7-form select, .site-content input[placeholder], .site-content .wpcf7-form select {
   color: rgba(34,70,104,.69);
 }
-
 .secondary input::-webkit-input-placeholder, .secondary textarea::-webkit-input-placeholder, .site-content input::-webkit-input-placeholder, .site-content textarea::-webkit-input-placeholder {
-	color: rgba(34,70,104,.69);
+  color: rgba(34,70,104,.69);
 }
-
 .secondary input::-moz-placeholder, .secondary textarea::-moz-placeholder, .site-content input::-moz-placeholder, .site-content textarea::-moz-placeholder {
-	color: rgba(34,70,104,.69);
+  color: rgba(34,70,104,.69);
 }
-
 .secondary input:-moz-placeholder, .secondary textarea:-moz-placeholder, .site-content input:-moz-placeholder, .site-content textarea:-moz-placeholder {  
-	color: rgba(34,70,104,.69);
+  color: rgba(34,70,104,.69);
 }
-
 .secondary input:-ms-input-placeholder, .secondary textarea:-ms-input-placeholder, .site-content input:-ms-input-placeholder, .site-content textarea:-ms-input-placeholder { 
-	color: rgba(34,70,104,.69);
+  color: rgba(34,70,104,.69);
 }
-
 .secondary .wpcf7-submit, .site-content .wpcf7-submit, .widget_search .search-submit, .error404 .search-submit {
   background: #32689b;
   background-color: #32689b;
@@ -870,13 +774,11 @@ input[type="search"].search-field:focus {
   transition: all .2s ease-in-out;
   -webkit-appearance: none;
 }
-
 .secondary .wpcf7-submit, .site-content .wpcf7-submit {
   font-size: 2em;
   margin: 0 8% 0 0;
   padding: .25em 1.75em;
 }
-
 .widget_search .search-submit, .error404 .search-submit {
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
@@ -886,12 +788,10 @@ input[type="search"].search-field:focus {
   margin: margin: 0 5% 0 0;
   padding: .25em 1.345em;
 }
-
 .secondary .wpcf7-submit:focus, .secondary .wpcf7-submit:hover, .site-content .wpcf7-submit:focus, .site-content .wpcf7-submit:hover,
 .widget_search .search-submit:focus, .widget_search .search-submit:hover, .error404 .search-submit:focus, .error404 .search-submit:hover {
   background-color: #224668;
 }
-
 .req {
   color: #ff0000;
 }
@@ -899,7 +799,6 @@ input[type="search"].search-field:focus {
 span.wpcf7-not-valid-tip {
   margin: 0 10%;
 }
-
 .wpcf7 div.wpcf7-validation-errors, .wpcf7 div.wpcf7-mail-sent-ok {
   background: #e5e190;
   background-color: rgba(229,225,144,.99)
@@ -911,10 +810,8 @@ span.wpcf7-not-valid-tip {
   margin: 7% 10%;
   width: 80%;
 }
-
 .wpcf7 div.wpcf7-validation-errors {
 }
-
 .wpcf7 div.wpcf7-mail-sent-ok {
   background: #90e590;
   background-color: rgba(144,229,144,.999);
@@ -931,102 +828,79 @@ span.wpcf7-not-valid-tip {
   margin: 0 0 -32px 0;
   min-height: 700px;
 }
-
 .footer-inner-wrap {
   margin: 0 auto;
   max-width: 1600px;
 }
-
 .footer-span3 {
   float: left;
-  width: 33.3%;
+  padding: 0 2%;
+  width: 29.3%;
 }
-
 .footer-primary {
 }
-
 .footer-secondary {
 }
-
 .footer-tertiary {
 }
-
 .footer-chunk {
 }
-
 .footer-headline {
   font-family: Arvo, Rockwell, serif;
   font-size: 1.6875em; /* 27px */
   font-weight: 700;
   line-height: 1.4074em; /* 38px */
 }
-
 .footer ul {
   margin: 0 0 1.5em 0;
   -webkit-padding-start: 0;
 }
-
 .footer-chunk p, .footer li, .footer .vcard {
   font-size: 1.3125em; /* 21px */
   line-height: 1.428571428571429em; /* 30px */
 }
-
 footer .vcard a, #menu-footer-links a {
   color: #e1eaed;
 }
-
 #menu-footer-links a:focus, #menu-footer-links a:hover {
   color: #90bde7;
 }
-
 .footer-chunk p {
   width: 61.8%;
 }
-
 #menu-footer-links, .footer-social {
   list-style-type: none;
 }
-
 .footer .footer-social {
   margin: 0 0 3em 0;
 }
-
 .footer-social li {
   height: 50px;
   margin: .7em 0;
 }
-
 .footer-social a {
   line-height: 1.875em;
   padding-left: 70px;
 }
-
 .yelp {
-  background: transparent url(/path-to-file/yelp.png) left center no-repeat;
+  background: transparent url(/wp-content/uploads/2014/01/yelp.png) left center no-repeat;
 }
-
 .googleplus {
-  background: transparent url(/path-to-file/googleplus.png) left center no-repeat;
+  background: transparent url(/wp-content/uploads/2014/01/googleplus.png) left center no-repeat;
 }
-
 .footer-badges {
 }
-
 .accepted-payment {
 }
-
 .accepted-payment li {
 }
-
 .site-info {
   clear: both;
   display: block;
 }
-
 .copyright {
   text-align: center;
 }
-
 .design-by {
   color: #4b9be7;
   font-size: .875em;
@@ -1040,11 +914,9 @@ footer .vcard a, #menu-footer-links a {
 
 /* Home
 ------------------------------------------------------------ */
-
 .hero-div {
   position: relative;
 }
-
 .hero-div-overlay {
   height: auto;
   left: 0;
@@ -1052,11 +924,9 @@ footer .vcard a, #menu-footer-links a {
   top: 0;
   width: 100%;
 }
-
 .home .hero-div-overlay h2, .home .hero-div-overlay p {
   color: #e1eaed;
 }
-
 .home .hero-div-overlay h2 {
   font-family: Arvo, Rockwell, serif;
   font-size: 3em;
@@ -1065,7 +935,6 @@ footer .vcard a, #menu-footer-links a {
   text-shadow: 2px 2px #5c2b1f;
   width: 33%;
 }
-
 .home .hero-div-overlay p {
   font-size: 1.875em;
   font-style: italic;
@@ -1074,20 +943,17 @@ footer .vcard a, #menu-footer-links a {
   margin: 2% 0 0 58%;
   text-shadow: 1px 1px #5c2b1f;
 }
-
 .full-page-span33 {
   float: left;
   max-width: 493px;
   padding: 0 20px;
   width: 30.83%;
 }
-
 .isle1, .isle2, .isle3 {
   background-size: cover;
   border-radius: 9px;
   height: 290px;
 }
-
 .isle1 h3, .isle2 h3, .isle3 h3 {
   background: rgb(34,70,104);
   background: rgba(34,70,104,.95);
@@ -1099,40 +965,35 @@ footer .vcard a, #menu-footer-links a {
   font-size: 27px;
   text-align: center;
 }
-
 .isle1 {
-  background: transparent url(/path-to-file/feature-image1.jpg) no-repeat center center;
+  background: transparent url(/wp-content/uploads/2014/01/sacramento-heating-and-air2.jpg) no-repeat center center;
 }
 .isle2 {
-  background: transparent url(/path-to-file/feature-image2.jpg) no-repeat center center;
+  background: transparent url(/wp-content/uploads/2014/05/sacramento-air-conditioning-service-repair.jpg) no-repeat center center;
 }
 .isle3 {
-  background: transparent url(/path-to-file/feature-image3.jpg) no-repeat center center;
+  background: transparent url(/wp-content/uploads/2014/05/sacramento-commercial-heating-and-air.jpg) no-repeat center center;
 }
-
 .isle1 p, .isle2 p, .isle3 p {
   font-style: italic;
   font-size: 1.6875em;
   max-width: 180px;
 }
-
-.isle1 p {
+.isle1 p, .isle3 p {
   color: #224668;
   text-shadow: 1px 1px #e1eaed;
 }
-
-.isle2 p, .isle3 p {
+.isle2 p  {
   color: #e1eaed;
   text-shadow: 1px 1px #224668;
 }
-
 .tl {
   left: 10%;
   position: relative;
   top: 5%;
 }
 .bl {
-  left: 50%;
+  left: 10%;
   position: relative;
   top: 33%;
 }
@@ -1151,7 +1012,8 @@ footer .vcard a, #menu-footer-links a {
 }
 .home .full-page-span33 .frst-grn-btn, .home .full-page-span33 .lt-grn-btn {
   margin: 0 0 1.345em 0;
-  padding: .5em .5em .5em 12.5%;
+  /* padding: 15px 15px 15px 12.5%; */
+   padding: .5em .5em .5em 12.5%;
 }
 .home-facts {
 }
@@ -1162,14 +1024,14 @@ footer .vcard a, #menu-footer-links a {
 ----------------------------------------------------------- */
 
 .error404 #content {
-  background: transparent url(/path-to-file/pagenotfound1.png) no-repeat center center;
+  background: transparent url(/wp-content/uploads/2014/01/pagenotfound1.png) no-repeat center center;
   background-size: cover;
   min-height: 768px;
 }
 .error404 .site-content a {
   color: #224668;
 }
-
+ 
 /* =========================================================
       9 Misc
    ========================================================= */
@@ -1178,14 +1040,12 @@ footer .vcard a, #menu-footer-links a {
 ----------------------------------------------- */
 
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
-
 .infinite-scroll .paging-navigation, /* Older / Newer Posts Navigation (always hidden) */
 .infinite-scroll.neverending .site-footer { /* Theme Footer (when set to scrolling) */
   display: none;
 }
 
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
-
 .infinity-end.neverending .site-footer {
   display: block;
 }
@@ -1218,7 +1078,7 @@ footer .vcard a, #menu-footer-links a {
   .main-navigation {
   } 
   .main-navigation a {
-    font-size: 1.875em;
+     font-size: 1.875em;
   }
   .site-main {
     padding: .75em 20px 0;
@@ -1234,6 +1094,7 @@ footer .vcard a, #menu-footer-links a {
     height: 290px;
     margin-bottom: 2.69em;
     max-width: 493px;
+    min-width: 100%;
     width: 100%;
   }
   .home-facts {
@@ -1248,7 +1109,7 @@ footer .vcard a, #menu-footer-links a {
     margin-right: 3%;
   } 
 }
-@media screen and (min-width: 769px) and (max-width: 1000px) {
+@media screen and (min-width: 769px) and (max-width:1000px) {
   .home .secondary {
     display: inline-block;
     float: none;
@@ -1260,7 +1121,7 @@ footer .vcard a, #menu-footer-links a {
     width: 61.8%;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1280px) {
+@media screen and (min-width: 769px) and (max-width:1280px) {
   .home .secondary, .secondary {
     padding: 0 0 0 20px; 
   }
@@ -1283,7 +1144,7 @@ footer .vcard a, #menu-footer-links a {
    .secondary {
      float: right;
    }
-  .home-facts {
+   .home-facts {
     min-width: 493px;
     width: 493px;
   }
@@ -1365,7 +1226,7 @@ footer .vcard a, #menu-footer-links a {
   .main-navigation li {
     padding: 0 1%;
   }
-  .main-navigation li:nth-of-type(1) {
+   .main-navigation li:nth-of-type(1) {
     padding: 0 1% 0 0;
   }
   .home .full-page-span33 {
@@ -1398,10 +1259,13 @@ footer .vcard a, #menu-footer-links a {
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    padding: 11px 8px 6px;
+    padding: 4px 8px 6px;
     position: absolute;
     right: 30px;
     top: 38px;
+  }
+  .menu-toggle span { 
+    font-size: 15px;
   }
   .main-navigation {
     border-top: 1px solid #224668;
@@ -1444,7 +1308,7 @@ footer .vcard a, #menu-footer-links a {
   }
   .header-secondary {
     font-size: 66%;
-    margin: 81px .5% 0 5%;
+    margin: 125px .5% 0 5%;
   }
   .footer-span3 {
     padding: 0 5%;
@@ -1496,7 +1360,7 @@ footer .vcard a, #menu-footer-links a {
   .header-secondary {
     float: right;
     font-size: 50%;
-    margin-top: 91px;
+    margin-top: 128px; /* 91px*/
   }
   input[type="search"].search-field {
     min-width: 170px;
